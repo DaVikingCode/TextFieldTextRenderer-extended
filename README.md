@@ -52,3 +52,5 @@ stage.addChild(textField);
 </pre>
 
 ![httf](https://cloud.githubusercontent.com/assets/2741417/4938073/c3c61d1c-65c8-11e4-9740-d6b48f83fe90.png)
+
+setting debugVisuals to true will create green quads behind the text, exactly the size of the rectangles we hit test with for the hyperlink.
