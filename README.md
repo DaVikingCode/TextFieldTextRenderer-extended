@@ -7,7 +7,7 @@ Rectangles are created around the hyperlink (supports line breaks) and a default
 
 For mobile, the touch area might need to be bigger than exactly the size of the text lines, the boundariesInflation properties help inflate the area.
 
-<pre>
+```actionscript3
 textField = new TextFieldTextRendererExtended();
 textField.maxWidth = 800;
 textFormat = new TextFormat("KENYC___", 32, 0x333333);
@@ -48,8 +48,7 @@ Till the dread penalty be paid. ]]&gt;
 
 textField.wordWrap = true;
 stage.addChild(textField);
-
-</pre>
+```
 
 ![httf](https://cloud.githubusercontent.com/assets/2741417/4938073/c3c61d1c-65c8-11e4-9740-d6b48f83fe90.png)
 
