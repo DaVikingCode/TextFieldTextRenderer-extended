@@ -53,7 +53,7 @@ All things which loud or restless be.
 
 Who, dazzled by a passing shade,
 Follows it, never will be free
-Till the dread penalty be paid. ]>;
+Till the dread penalty be paid. ]]>;
 
 textField.wordWrap = true;
 stage.addChild(textField);
