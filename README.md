@@ -16,7 +16,7 @@ the attributes property was created to get all of the tag's attribute, it works 
 
 For mobile, the touch area might need to be bigger than exactly the size of the text lines, the boundariesInflation properties help inflate the area.
 
-```actionscript
+```actionscript3
 textField = new TextFieldTextRendererExtended();
 textField.maxWidth = 800;
 textFormat = new TextFormat("KENYC___", 32, 0x333333);
@@ -35,7 +35,7 @@ textField.embedFonts = true;
 textField.textFormat = textFormat;
 textField.isHTML = true;
 textField.text =
-&lt;![CDATA[The Owls
+<![CDATA[The Owls
 
 'Neath their black yews in solemn state
 The owls are sitting in a row
@@ -53,7 +53,7 @@ All things which loud or restless be.
 
 Who, dazzled by a passing shade,
 Follows it, never will be free
-Till the dread penalty be paid. ]]&gt;
+Till the dread penalty be paid. ]>;
 
 textField.wordWrap = true;
 stage.addChild(textField);
